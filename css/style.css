@@ -1,0 +1,92 @@
+/* common btn */
+.common-bottn {
+    background-color: #E5745D;
+    width: 171px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.common-bottn a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+}
+.common-bottn a::after {
+    width: 164px;
+    height: 54px;
+    border: 1px solid white;
+    position: absolute;
+    top: -13px;
+    left: -37px;
+    content: "";
+}
+.navbar{
+    background-color: #fffffff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.button_menu a{
+    background-color: #E5745D;
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 15px 17px;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+}
+.button_menu a::after {
+    width: 137px;
+    height: 49px;
+    border: 1px solid white;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    content: "";
+}
+.nav-item a{
+    font-size: 18px;
+    color: hwb(176 0% 75%);
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.banner_part{
+    background-color: hwb(176 0% 75%);
+}
+.banner_heading{
+    padding: 200px 0px;
+}
+.banner_heading h2{
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: "Vollkom", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.banner_heading .span_1{
+    display:block;
+}
+.banner_heading p{
+
+        font-size: 20px;
+        color: #FFFFFF80;
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 14px;
+        padding-bottom: 50px;
+
+}
+.banner_heading .span_2{
+    color: #FFFFFF;
+}
+.banner_heading .span_3{
+    display:block;
+}
