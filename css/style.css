@@ -18,10 +18,10 @@
 }
 .common-bottn a::after {
     width: 164px;
-    height: 54px;
+    height: 53px;
     border: 1px solid white;
     position: absolute;
-    top: -13px;
+    top: -14px;
     left: -37px;
     content: "";
 }
